@@ -1,0 +1,31 @@
+@use "globals" as g;
+
+// Rate and Time Section
+
+.date {
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+    color: g.$cyan;
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+
+    img {
+      width: 10px;
+    }
+  }
+
+  &__right {
+    color: g.$soft;
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    font-weight: 300;
+
+    img {
+      width: 16px;
+    }
+  }
+}

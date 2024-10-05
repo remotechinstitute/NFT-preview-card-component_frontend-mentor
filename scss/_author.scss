@@ -1,0 +1,26 @@
+@use "globals" as g;
+
+// Author
+.author {
+  color: g.$soft;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  gap: 1rem;
+  font-size: 15px;
+  border-top: 1px solid g.$dark;
+  padding-top: 1rem;
+
+  img {
+    width: 30px;
+  }
+
+  a {
+    color: g.$white;
+    transition: all 0.3s;
+
+    &:hover {
+      color: g.$cyan;
+    }
+  }
+}
